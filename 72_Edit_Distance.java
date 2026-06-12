@@ -18,7 +18,7 @@ class Solution
                 } 
                 else 
                 {
-                    f[i][j] = Math.min(f[i - 1][j], Math.min(f[i][j - 1], f[i - 1][j - 1])) + 1;
+                    f[i][j] = Math.min(f[i-1][j], Math.min(f[i][j - 1], f[i - 1][j - 1])) + 1;
                 }
             }
         }
