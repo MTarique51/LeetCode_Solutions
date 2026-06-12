@@ -14,7 +14,7 @@ class Solution
             {
                 if (word1.charAt(i - 1) == word2.charAt(j - 1)) 
                 {
-                    f[i][j] = f[i - 1][j - 1];
+                    f[i][j] = f[i-1][j - 1];
                 } 
                 else 
                 {
